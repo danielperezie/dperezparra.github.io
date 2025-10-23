@@ -6,7 +6,7 @@ This repository contains the source code for my personal website, built with HTM
 - **Presentation**: About me and my background.
 - **Research**: List of my research papers with photos and links.
 - **CV**: Downloadable CV.
-- **Etno-Photography**: Gallery of ethnographic photos from fieldwork.
+- **In the Field**: Gallery of ethnographic photos from fieldwork.
 
 ## How to edit
 - HTML pages are in the root: `index.html`, `research.html`, `etno.html`.
