@@ -1,0 +1,154 @@
+/* ==== FONT AND BASE ==== */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  background-color: #f6f8fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* ==== HEADER ==== */
+header {
+  background-color: #0073b7;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 2.8em;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* ==== NAVIGATION ==== */
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d9f0ff;
+}
+
+/* ==== SECTIONS ==== */
+section {
+  max-width: 900px;
+  margin: 2.5em auto;
+  padding: 0 1.5em;
+}
+
+h2 {
+  color: #0073b7;
+  border-bottom: 2px solid #0073b7;
+  padding-bottom: 0.2em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ==== PRESENTATION ==== */
+.portrait {
+  width: 180px;
+  border-radius: 50%;
+  float: right;
+  margin: 0 0 1em 1.5em;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+/* ==== RESEARCH ==== */
+.paper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.paper img {
+  width: 160px;
+  border-radius: 8px;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.paper h3 {
+  margin: 0.2em 0;
+  color: #0073b7;
+  font-size: 1.3em;
+}
+
+.paper p {
+  margin-top: 0.3em;
+}
+
+.paper a {
+  color: #0073b7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.paper a:hover {
+  color: #0099d6;
+  text-decoration: underline;
+}
+
+/* ==== CV ==== */
+#cv a {
+  color: #0073b7;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#cv a:hover {
+  text-decoration: underline;
+}
+
+/* ==== ETNO-PHOTOGRAPHY ==== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 1.5em;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* ==== FOOTER ==== */
+footer {
+  background-color: #e1e4e8;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 2em;
+}
+
+footer a {
+  color: #0073b7;
+  text-decoration: none;
+}
