@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Daniel Pérez-Parra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Daniel Pérez-Parra</h1>
+    <nav>
+      <a href="index.html">Presentation</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="etno.html">Etno-Photography</a>
+      <a href="assets/DanielPerez_CV.pdf" target="_blank">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="research">
+      <h2>Research</h2>
+
+      <div class="paper">
+        <img src="assets/img/research1.jpg" alt="Paper 1">
+        <div>
+          <h3>The Effect of Secondary School Expansion on Gender Norms</h3>
+          <p>This paper explores how access to education shapes beliefs and practices around FGM and women’s empowerment in Senegal.</p>
+          <a href="https://doi.org/xxxx" target="_blank">Read more</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <img src="assets/img/research2.jpg" alt="Paper 2">
+        <div>
+          <h3>Education, Peacekeeping, and Gender Roles</h3>
+          <p>An analysis of how post-conflict reconstruction influences gender equality in education and household decision-making.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Daniel Pérez-Parra | Built with ❤️ and GitHub Pages</p>
+  </footer>
+</body>
+</html>
