@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Pérez-Parra | Presentation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Daniel Pérez-Parra</h1>
+    <nav>
+      <a href="index.html" class="active">Presentation</a>
+      <a href="research.html">Research</a>
+      <a href="etno.html">Etno-Photography</a>
+      <a href="assets/DanielPerez_CV.pdf" target="_blank">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="presentation">
+      <h2>Presentation</h2>
+      <img src="assets/img/yourphoto.jpg" alt="Daniel Pérez" class="portrait">
+      <p>I am a researcher studying education, gender norms, and social change in Sub-Saharan Africa. My work combines econometric analysis with field documentation and ethnographic photography.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Daniel Pérez-Parra | Built with ❤️ and GitHub Pages</p>
+  </footer>
+</body>
+</html>
